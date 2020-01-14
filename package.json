@@ -1,7 +1,7 @@
 {
   "name": "mt-app",
   "version": "1.0.0",
-  "description": "My epic Nuxt.js project",
+  "description": "使用Nuxt.js开发美团App",
   "author": "makenum",
   "private": true,
   "scripts": {
