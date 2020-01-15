@@ -1,6 +1,7 @@
 @import './topbar.scss';
 @import './search.scss';
 .m-header {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
   @at-root .layout-default {
     .el-header {
       .m-header {

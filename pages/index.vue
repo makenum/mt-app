@@ -1,19 +1,34 @@
 <template>
   <div class="page-index">
     <el-row>
-      <el-col :span="5">1</el-col>
-      <el-col :span="19">2</el-col>
+      <el-col :span="5">
+        <emenu />
+      </el-col>
+      <el-col :span="19">
+        <Life />
+      </el-col>
     </el-row>
     <el-row>
-      <el-col :span="24">3</el-col>
+      <el-col :span="24">
+        <Artistic />
+      </el-col>
     </el-row>
   </div>
 </template>
 
 <script>
+import Artistic from '../components/index/artistic.vue'
+import Emenu from '@/components/index/menu.vue'
+import Life from '@/components/index/life.vue'
 export default {
-  components: {}
+  components: {
+    Emenu,
+    Life,
+    Artistic
+  }
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+@import '@/assets/css/index/index.scss';
+</style>

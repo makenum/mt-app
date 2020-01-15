@@ -1,10 +1,10 @@
 # mt-app
 
-> My epic Nuxt.js project
+> 使用 Nuxt.js 开发美团 App
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm run install
 
